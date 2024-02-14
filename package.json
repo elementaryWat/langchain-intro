@@ -1,0 +1,21 @@
+{
+  "name": "langchain-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.0.14",
+    "langchain": "^0.1.16",
+    "pdf-parse": "^1.1.1"
+  }
+}
